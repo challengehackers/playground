@@ -21,7 +21,9 @@ overflow exploit so that the string "You called bar()" is output.
 
 Your answer should be formatted as a single line of text consisting of
 pairs of hex characters separated by spaces.  Any pad characters for the
-overflow should be a lower case 'a'.
+overflow should be a properly encoded lower case 'a'.  You should assume
+that the hex pairs would be converted into a string that would then be
+redirected to STDIN for the program.
 
 Hint: Use the GNU Debugger on an isolated 32-bit sandbox system without
 ASLR enabled when working with this binary.
