@@ -16,7 +16,7 @@ void bar() {
 
 ## Buffer Overflow Exploit
 
-Your objective is to get the `foo()` routine to run by using a buffer
+Your objective is to get the `bar()` routine to run by using a buffer
 overflow exploit so that the string "You called bar()" is output.
 
 Your answer should be formatted as a single line of text consisting of
